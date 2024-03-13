@@ -13,6 +13,7 @@ body, html {
     margin-top: 20px;
     text-align: center; /* Ensure iframe is centered */
     overflow: hidden; /* Hide any overflowing content */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
 }
 
 .embed-container iframe {
@@ -55,6 +56,11 @@ body, html {
     justify-content: space-between; /* Space items evenly */
     align-items: center; /* Center items vertically */
     overflow-x: auto; /* Allow horizontal scrolling if needed */
+    opacity: 93%;
+}
+
+.navbar:hover {
+    opacity: 100%;
 }
 
 .navbar img {
@@ -114,7 +120,6 @@ body, html {
 
 .right-section {
     margin-top: 13%;
-    
 }
 
 @media (max-width: 768px) {
@@ -183,7 +188,7 @@ p {
 }
 
 .about-section {
-    margin-top: -20%;
+    margin-top: -23%;
     margin-right: 15%;
     float: right;
     width: 50%;
@@ -192,8 +197,11 @@ p {
 }
 
 .banner-image {
+    margin-top: 150px;
     margin-left: 10%;
-    width: 500px;
+    width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+
 }
 
 .centered-content p {
@@ -203,10 +211,12 @@ p {
 }
 
 .centered-content h1 {
-    text-align: center;
+    margin-top: 250px;
+    margin-left: 170px;
 }
 
 .roadmap-div {
+    margin-top: 150px;
     margin-left: 750px;
     margin-right: 0px;
 }
@@ -219,17 +229,17 @@ p {
   
   .phase {
     width: 18%; /* Adjust as needed */
-    background-color: #f0f0f0;
+    background-color: rgb(22, 26, 37);
     margin: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
   }
   
   .phase h2 {
-    font-size: 42px;
+    font-size: 60px;
     margin-bottom: 10px;
   }
   
@@ -239,6 +249,7 @@ p {
   }
   
   .phase li {
+    font-size: 20PX;
     margin-bottom: 10px;
     font-family: 'Bangers', cursive; /* Set the font-family to a cartoonish font */
     letter-spacing: 2px; /* Adjust the letter spacing as needed */
@@ -246,5 +257,28 @@ p {
     -webkit-text-stroke: 1px black; /* Add a black border around each letter */
     padding: 10px; /* Add padding to give some space between text and border */
   }
+
+  .buttons-container-final {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pepe-gif {
+    float: right;
+    margin-top: -450px;
+    margin-right: 200px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+
+  }
   
+  .demo-div {
+    margin-left: 720px;
+  }
+
+  .contract {
+    display: flex;
+    justify-content: center;
+  }
+
 
